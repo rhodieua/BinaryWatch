@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:rowCount="3"
+        android:columnCount="6">
+        
+        <View 
+            android:id="@+id/hours5"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/grey"/>
+
+        <View 
+            android:id="@+id/hours4"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+        
+        <View 
+            android:id="@+id/hours3"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/hours2"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/hours1"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/hours0"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+        
+        <View 
+            android:id="@+id/mins5"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/green"/>
+
+        <View 
+            android:id="@+id/mins4"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/green"/>
+        
+        <View 
+            android:id="@+id/mins3"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/mins2"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/mins1"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/mins0"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/secs5"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/blue"/>
+
+        <View 
+            android:id="@+id/secs4"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+        
+        <View 
+            android:id="@+id/secs3"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/secs2"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/secs1"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+
+        <View 
+            android:id="@+id/secs0"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"/>
+        
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textBinaryH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/textBinaryM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/textBinaryS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    
+</LinearLayout>
